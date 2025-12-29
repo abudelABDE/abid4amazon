@@ -1,0 +1,41 @@
+h1 {
+    background-color: rgba(0, 0, 0, 0.114);
+    border-radius: 20px;
+}
+span{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    background-color: rgb(214, 241, 7);
+    border-radius: 10px;
+    padding: 0px 10PX ;
+}
+ h1 span a {
+    text-decoration: none;
+    color: rgb(33, 5, 5);
+
+}
+/* style.css */
+
+/* Style général de la pagination */
+.pagination .page-item .page-link {
+   
+    border-radius: 10px;       /* coins arrondis */
+          /* espace autour du texte */
+    color: black;              /* couleur du texte */
+    background-color: transparent; /* fond transparent */
+    transition: 0.3s;          /* effet doux au survol */
+         /* taille du texte */
+    text-decoration: none;     /* enlever soulignement si lien */
+}
+
+/* Effet au survol */
+.pagination .page-item .page-link:hover {
+    background-color: #ff9900; /* fond orange */
+    color: white;              /* texte blanc */
+    border-color: #ff9900;     /* bordure orange */
+}
+
+
+
